@@ -4,6 +4,17 @@ body {
 h1 {
     text-align: center;
 }
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 #flexsect1 {
-    background: gray;
+    background: rgb(207, 207, 207);
+}
+#flexsect2 {
+    background: rgb(175, 175, 175);
+}
+#flexsect3 {
+    background: rgb(158, 157, 157);
 }

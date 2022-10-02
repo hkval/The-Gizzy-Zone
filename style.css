@@ -1,5 +1,5 @@
 .hero-image {
-    background: url(https://photos.google.com/share/AF1QipPyj9BN6bhtYozZmMeipFCMBCtELjk8Q_ifJW8DeyNnL7z9MMYNefldSxQltaPn4Q?key=MTg0UDE2WkFRSl8wNmczQ0ZpQnJjdkgtWkdMdGN3) no-repeat center;
+    background: url(https://photos.app.goo.gl/gzank7WGwd95hyai9) no-repeat center;
     background-size: cover;
     height: 300px;
 }
@@ -17,6 +17,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 #flexsect1 {
     background: rgb(207, 207, 207);

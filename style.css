@@ -20,6 +20,8 @@ h1 {
 }
 #flexsect1 {
     background: rgb(207, 207, 207);
+    height: 100px;
+    width: 20%;
 }
 #flexsect2 {
     background: rgb(175, 175, 175);

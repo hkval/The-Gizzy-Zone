@@ -4,6 +4,6 @@ body {
 h1 {
     text-align: center;
 }
-div.flexsect1 {
+#flexsect1 {
     background: gray;
 }

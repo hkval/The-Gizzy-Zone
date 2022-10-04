@@ -2,7 +2,8 @@
     background: url(./giz.jpg.JPG) no-repeat center;
     background-position-y: top;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    position: relative;
 }
 .hero-text {
     text-align: left;
@@ -16,11 +17,14 @@ body {
 h1 {
     text-align: center;
 }
-.flexcontainer {
+.flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+}
+.flexcont {
+    margin: 5%;
 }
 #flexsect1 {
     background: rgb(207, 207, 207);

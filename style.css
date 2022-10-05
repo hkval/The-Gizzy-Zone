@@ -30,6 +30,8 @@ h1 {
 }
 .flexcont {
     margin: 5%;
+    color: rgb(61, 16, 0);
+    text-align: center;
 }
 #flexsect1 {
     background: rgb(207, 207, 207);

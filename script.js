@@ -9,15 +9,18 @@ function answer(txt, place) {
     place.appendChild(newp)
 }
 
-const flex1 = document.querySelector('#flexsect1');
-flex1.addEventListener('click', () => answer('Stinky fish',flex1),
-    {once: true});
+const fsections =
+    {'#flexsect1':'stinky fish'
+    ,'#flexsect2':'Fresno, CA'
+    , '#flexsect3':'Her grandparents\' house'}
 
-const flex2 = document.querySelector('#flexsect2');
-flex2.addEventListener('click', () => answer('Fresno, CA',flex2),
-    {once: true});
+function giveAnswers(sectList){
+    for (let X in sectList){
+        const sect = document.querySelector(X);
+        sect.addEventListener('click', () => answer(sectList[X],sect),
+        {once: true});
+    }
+}
 
-const flex3 = document.querySelector('#flexsect3');
-flex3.addEventListener('click', () => answer(`Her grandparents' house`,flex3),
-    {once: true});
+giveAnswers(fsections)
 
